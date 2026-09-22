@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Now</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  
-</body>
 
+  <div class="app">
+    <h1>Weather Now</h1>
+
+    <form id="searchForm" class="search-form">
+      <input type="text" id="cityInput" placeholder="Enter a city (e.g. Ibadan)" required>
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="loading" class="loading hidden">Loading...</div>
+    <div id="errorMessage" class="error-message hidden"></div>
+
+    <div id="weatherCard" class="weather-card hidden">
+      <h2 id="cityName"></h2>
+      <p id="temperature" class="temp"></p>
+      <p id="condition" class="condition"></p>
+      <div class="details">
+        <div>
+          <span>Feels like</span>
+          <p id="feelsLike"></p>
+        </div>
+        <div>
+          <span>Humidity</span>
+          <p id="humidity"></p>
+        </div>
+        <div>
+          <span>Wind</span>
+          <p id="wind"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
