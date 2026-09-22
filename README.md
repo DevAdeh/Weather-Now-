@@ -3,7 +3,7 @@
 A simple weather app that shows current conditions for any city, built with HTML, CSS, and JavaScript using live data from the Open-Meteo API.
 
 ## Preview 
-![article preview](./preview.png)
+![article preview](./assets/preview.png)
 
 ## Links
 
