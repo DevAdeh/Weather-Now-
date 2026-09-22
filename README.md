@@ -9,7 +9,7 @@ A simple weather app that shows current conditions for any city, built with HTML
 
 Solution link: [https://github.com/DevAdeh/Weather-Now-.git]
 
-Live link: [https://multi-step-form-alpha-steel.vercel.app/]
+Live link: https://weather-now-bay-three.vercel.app/]
 
 ## Features
 - Search weather by city name
